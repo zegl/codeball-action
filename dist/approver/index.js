@@ -83,7 +83,7 @@ function run() {
                     { data: 'Result', header: true }
                 ],
                 [
-                    github.context.payload.pull_request.number,
+                    `#${github.context.payload.pull_request.number}`,
                     approved ? 'Approved ✅' : 'Not approved'
                 ]
             ])
