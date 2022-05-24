@@ -87,7 +87,7 @@ function run() {
                     approved ? 'Approved ✅' : 'Not approved'
                 ]
             ])
-                .addLink('View on web', `https://codeball.forfunc.com/predictions/${jobID}`)
+                .addLink('View on web', `https://codeball.forfunc.com/prediction/${jobID}`)
                 .write();
         }
         catch (error) {
