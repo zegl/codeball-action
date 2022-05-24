@@ -77,7 +77,7 @@ async function run(): Promise<void> {
           {data: 'Result', header: true}
         ],
         [
-          `[#${github.context.payload.pull_request.number}](${pullRequestURL})`,
+          `#${github.context.payload.pull_request.number}`,
           approved ? 'Approved ✅' : 'Not approved'
         ]
       ])
