@@ -83,7 +83,7 @@ async function run(): Promise<void> {
       ])
       .addLink(
         'View on web',
-        `https://codeball.forfunc.com/predictions/${jobID}`
+        `https://codeball.forfunc.com/prediction/${jobID}`
       )
       .write()
   } catch (error) {
